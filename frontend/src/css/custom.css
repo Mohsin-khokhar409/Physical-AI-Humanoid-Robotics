@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-color-primary: #1a73e8;
+  --ifm-color-primary-dark: #1868d1;
+  --ifm-color-primary-darker: #1662c5;
+  --ifm-color-primary-darkest: #1250a1;
+  --ifm-color-primary-light: #3c82ea;
+  --ifm-color-primary-lighter: #4a8eef;
+  --ifm-color-primary-lightest: #6b9ef3;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-hero-background-color: #f8f9fa;
+  --ifm-card-background-color: #ffffff;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #66b2ff;
+  --ifm-color-primary-dark: #4da3ff;
+  --ifm-color-primary-darker: #3f9dff;
+  --ifm-color-primary-darkest: #218bff;
+  --ifm-color-primary-light: #85c1ff;
+  --ifm-color-primary-lighter: #92c8ff;
+  --ifm-color-primary-lightest: #b8daff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-hero-background-color: #1b1b1d;
+  --ifm-card-background-color: #242526;
+  --ifm-color-emphasis-200: #444;
+}
+
+.button {
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button--primary {
+  box-shadow: 0 4px 14px 0 rgba(0, 118, 255, 0.39);
+}
+
+.button--secondary {
+  --ifm-button-background-color: transparent;
+  --ifm-button-border-color: var(--ifm-color-emphasis-500);
+}
+
+.button--secondary:hover {
+  --ifm-button-background-color: var(--ifm-color-emphasis-200);
+}

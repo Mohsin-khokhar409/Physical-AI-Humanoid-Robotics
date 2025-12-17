@@ -1,0 +1,17 @@
+# Docker ignore patterns
+.git/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+.env*
+node_modules/
+dist/
+build/
+*.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/

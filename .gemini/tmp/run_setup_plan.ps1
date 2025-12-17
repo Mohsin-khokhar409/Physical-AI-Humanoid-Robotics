@@ -1,0 +1,1 @@
+& '.specify/scripts/powershell/setup-plan.ps1' -FeatureName '001-ai-textbook-init' -Json

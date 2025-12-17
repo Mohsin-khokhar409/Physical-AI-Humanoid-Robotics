@@ -1,0 +1,33 @@
+# Node.js/JavaScript/TypeScript (for Docusaurus)
+node_modules/
+dist/
+build/
+*.log
+.env*
+
+# Python (for FastAPI)
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# C++ (for ROS 2/Isaac extensions)
+build/
+bin/
+obj/
+out/
+*.o
+*.so
+*.a
+*.exe
+*.dll
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
